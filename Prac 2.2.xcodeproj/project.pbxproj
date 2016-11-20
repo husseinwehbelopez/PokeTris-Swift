@@ -14,6 +14,10 @@
 		34B468141D9D244600FB948E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B468121D9D244600FB948E /* LaunchScreen.storyboard */; };
 		34B4681F1D9D244700FB948E /* Prac_2_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4681E1D9D244700FB948E /* Prac_2_2Tests.swift */; };
 		34B4682A1D9D244700FB948E /* Prac_2_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B468291D9D244700FB948E /* Prac_2_2UITests.swift */; };
+		34B468381D9D260600FB948E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B468371D9D260600FB948E /* Board.swift */; };
+		34B4683A1D9D260E00FB948E /* Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B468391D9D260E00FB948E /* Texture.swift */; };
+		34B4683C1D9D261600FB948E /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4683B1D9D261600FB948E /* Block.swift */; };
+		34B4683F1D9D281000FB948E /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4683E1D9D281000FB948E /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		34B468251D9D244700FB948E /* Prac 2.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prac 2.2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B468291D9D244700FB948E /* Prac_2_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prac_2_2UITests.swift; sourceTree = "<group>"; };
 		34B4682B1D9D244700FB948E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B468371D9D260600FB948E /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		34B468391D9D260E00FB948E /* Texture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texture.swift; sourceTree = "<group>"; };
+		34B4683B1D9D261600FB948E /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		34B4683E1D9D281000FB948E /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				34B468091D9D244600FB948E /* AppDelegate.swift */,
+				34B4683D1D9D27B100FB948E /* Modelo */,
 				34B4680B1D9D244600FB948E /* ViewController.swift */,
 				34B4680D1D9D244600FB948E /* Main.storyboard */,
 				34B468101D9D244600FB948E /* Assets.xcassets */,
 				34B468121D9D244600FB948E /* LaunchScreen.storyboard */,
 				34B468151D9D244600FB948E /* Info.plist */,
+				34B4683E1D9D281000FB948E /* BoardView.swift */,
 			);
 			path = "Prac 2.2";
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				34B4682B1D9D244700FB948E /* Info.plist */,
 			);
 			path = "Prac 2.2UITests";
+			sourceTree = "<group>";
+		};
+		34B4683D1D9D27B100FB948E /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				34B468391D9D260E00FB948E /* Texture.swift */,
+				34B4683B1D9D261600FB948E /* Block.swift */,
+				34B468371D9D260600FB948E /* Board.swift */,
+			);
+			name = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				34B4680C1D9D244600FB948E /* ViewController.swift in Sources */,
+				34B4683A1D9D260E00FB948E /* Texture.swift in Sources */,
+				34B4683C1D9D261600FB948E /* Block.swift in Sources */,
+				34B4683F1D9D281000FB948E /* BoardView.swift in Sources */,
 				34B4680A1D9D244600FB948E /* AppDelegate.swift in Sources */,
+				34B468381D9D260600FB948E /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
